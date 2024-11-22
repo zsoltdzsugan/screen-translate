@@ -1,0 +1,50 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Ignore environment variables file (.env) for security
+.env
+
+# Ignore PyInstaller build folders
+*.spec
+*.toc
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Ignore other temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore Python package distribution
+*.tar.gz
+*.whl
+*.egg
+
+# Ignore packaging and dependency files
+pip-wheel-metadata/
+*.egg-info/
+
